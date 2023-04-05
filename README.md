@@ -1,6 +1,6 @@
 # MLST-based clade classifiers
 
-Here I implemented different ML classifiers (KNN and RF) that take a sequence type (ST) from a strain of *C.difficile* or *C-difficile*-like and output a clade prediction. This is to make it easier and faster to predict a clade instead of doing it with phylogenetic tree building using STs.
+Here I implemented different ML classifiers (KNN and RF) that take a sequence type (ST) from a strain of *C.difficile* or *C-difficile*-like and output a clade prediction. This is to make it easier and faster to predict a clade instead of doing it with phylogenetic tree building using STs. These classifiers are far from perfect but with a bit more work they could be useful!
 
 ## Steps:
 - Loading dataset: training and testing sets are from public PubMLST database of C.difficile.
