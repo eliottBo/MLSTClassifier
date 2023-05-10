@@ -1,7 +1,7 @@
 # Overview
 
 ## MLST-based clade classifiers
-Here I implemented different ML classifiers (KNN, RF and SVM) that take a Multi-Locus Sequence Type (MLST) file from strains of *C.difficile* or *C-difficile*-like and output a clade prediction. This is to make it easier and faster to predict a clade instead of doing it with phylogenetic tree building using STs. These classifiers are not perfect (accuracies ~92% for RF and KNN) but with a bit more work they could be useful! I provided the pre-trained models of KNN and RF (.sav) for you to try them.
+Here I implemented different ML classifiers (KNN, RF and SVM) that take a Multi-Locus Sequence Type (MLST) file from strains of *C.difficile* or *C-difficile*-like and output a clade prediction (including cryptic clades). This is to make it easier and faster to predict a clade instead of doing it with phylogenetic tree building using STs. These classifiers are not perfect (accuracies ~92% for RF and KNN) but with a bit more work they could be useful! I provided the pre-trained models of KNN and RF (.sav) for you to try them.
 Inspired from StatQuest methodology (https://www.youtube.com/watch?v=q90UDEgYqeI&t=3327s).
 I used Scikit-learn library
 
